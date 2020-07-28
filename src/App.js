@@ -6,9 +6,15 @@ import AddPersons from './components/AddPersons';
 function App() {
   return (
     <div>
-      <h1>BS_CIS</h1>
+    
+    
+      <div className="absolute">
+        <h1>BS_CIS</h1>
       <AddPersons/>
       <SearchBar />
+      </div>
+         
+     
      
 
     </div>

@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: " 0 0 10px grey",
         borderRadius: "10px",
         textAlign: "center",
-        height: "270px",
+        height: "330px",
+        width: "250px"
         
     },
     img: {
@@ -41,10 +42,13 @@ const useStyles = makeStyles((theme) => ({
 export default function Cards({ text }) {
     const classes = useStyles();
 
+    
+
 
 
     const filteredPerson = persons.filter((person) => {
-        return person.name.toLowerCase().includes(text.toLowerCase()) || person.email.toLowerCase().includes(text.toLowerCase())
+       
+        return person["name"].toLowerCase().includes(text.toLowerCase()) || person["pieas-email"].toLowerCase().includes(text.toLowerCase())
     })
 
 
@@ -65,8 +69,10 @@ export default function Cards({ text }) {
                                 <Paper elevation={3} className={classes.card}>
                                     <img src={val.imgUrl} alt={val.name} height="120px" width="120px" className={classes.img}></img>
 
-                                    <h3>Name: {val.name}</h3>
-                                    <p>Email: {val.email}</p>
+                                    <h3>Name: {val["name"]}</h3>
+                                    <p>Email: {val["pieas-email"]}</p>
+                                    <p>Reg.No: {val["registration-no"]}</p>
+                                    <p>Contact No: {val["mobile-no"]}</p>
 
                                 </Paper>
                             </div>
