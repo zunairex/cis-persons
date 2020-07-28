@@ -14,7 +14,7 @@ export const persons = [
     {
         "id": 3,
         "name": "Abdur Rehman",
-        "email": "abdulrehmankhan27061998@gmail.com",
+        "email": "ark@gmail.com",
         "imgUrl": "https://scontent.flhe7-1.fna.fbcdn.net/v/t1.0-9/73043299_2501226023328247_2456057806764113920_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_eui2=AeGECykJ1C9PgMJ7tUd2J20t3BgKfw761FXcGAp_DvrUVQ20XJ91Gdj8rvzuO9wAC8oQ-r6PqqLKHbVORAd58ebg&_nc_ohc=AaTPRk-lF9UAX-t7MnQ&_nc_ht=scontent.flhe7-1.fna&oh=a844adba8e8e40cd092f8580fc1224ab&oe=5F44D126"
 
     }

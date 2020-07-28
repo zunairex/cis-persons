@@ -24,14 +24,15 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: "10px",
         textAlign: "center",
         height: "270px",
-        width: "300px"
+        
     },
     img: {
         borderRadius: "50%",
         marginTop: "20px",
         border: "5px solid white"
 
-    }
+    },
+   
 }));
 
 
@@ -57,7 +58,7 @@ export default function Cards({ text }) {
             {filteredPerson.map((val) => {
 
                 return (
-                    <div key={val.id}>
+                    <div key={val.id} >
                         <Tilt className="Tilt" options={{ max: 35 }} style={{ height: 250, width: 250 }} >
                             <div className="Tilt-inner">
 
